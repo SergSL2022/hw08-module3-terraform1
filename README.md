@@ -25,10 +25,14 @@ public EC2 instance in specified VPC with installed default nginx server or ngin
 
 ## 3. Then outputs:
 IP of created instance
+![alt text](<screenshots/instance/3/Знімок екрана з 2024-05-19 20-02-00.png>)
+![alt text](<screenshots/instance/3/Знімок екрана з 2024-05-19 20-02-37.png>)
+![alt text](<screenshots/instance/3/Знімок екрана з 2024-05-19 20-03-09.png>)
 
 
 ## 4. Use http://IP to confirm that nginx is running
-
+![alt text](<screenshots/instance/4/Знімок екрана з 2024-05-19 20-04-45.png>)
+![alt text](<screenshots/instance/4/Знімок екрана з 2024-05-19 20-05-48.png>)
 
 
 # Backend
