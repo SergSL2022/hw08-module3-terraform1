@@ -23,7 +23,7 @@ resource "aws_instance" "nginx_web_server" {
   ami           = data.aws_ami.ubuntu_24_04_latest.id
   instance_type = "t3.micro"
   root_block_device {
-    volume_size = 16
+    volume_size = 20
   }
   vpc_security_group_ids = [aws_security_group.slipchuk-sg.id]
   key_name = "slipchuk-aws-ec2"

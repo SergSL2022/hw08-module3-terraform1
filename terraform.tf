@@ -7,6 +7,12 @@ terraform {
   }
 
   required_version = ">= 1.2.0"
+
+  backend "s3" {
+    bucket = "terraform-state-danit-devops-2"
+    key    = "slipchuk/terraform-state"
+    region = "eu-central-1"
+  }
 }
 
 provider "aws" {
